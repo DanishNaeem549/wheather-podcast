@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherCast - Professional Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>WeatherCast</h1>
+        <p>Your reliable weather forecast at a glance</p>
+    </header>
+
+    <main class="main-content">
+        <section class="search-section">
+            <input type="search" id="search" placeholder="Enter city name...">
+            <button class="btn" id="searchBtn">Search</button>
+        </section>
+
+        <section class="table-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>City</th>
+                        <th>Region</th>
+                        <th>Local Time</th>
+                        <th>Condition</th>
+                        <th>Wind (kph)</th>
+                        <th>Pressure (mb)</th>
+                        <th>Humidity (%)</th>
+                    </tr>
+                </thead>
+                <tbody id="weatherData">
+                    <!-- Dynamic Data -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 WeatherCast. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
